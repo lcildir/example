@@ -7,11 +7,11 @@ const app = new Reshuffle();
 const cronConnector = new CronConnector(app);
 //Github Config
 const githubConnector = new GitHubConnector(app, {
- token: 'e76425835f9b83e5a0c18f299c00dd9759da12e3',
- runtimeBaseUrl: 'https://github.com/',
+ token: '9e5f573d00ba0074516728cac215808758f8b38a',
+ //runtimeBaseUrl: 'https://github.com/',
 });
 
-cronConnector.on({ expression: "52 * * * *" }, async (event, app) => {
+cronConnector.on({ expression: "32 * * * *" }, async (event, app) => {
  const { data } = await githubConnector.sdk().pulls.list({
    owner: 'lcildir',
    repo: 'example',
