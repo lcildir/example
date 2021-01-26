@@ -15,7 +15,16 @@ const slackConnector = new SlackConnector(app, {
  signingSecret: 'af01bc3327a185d8a7e5baf460c9bd1d',
 });
 
- // Code listed further down
- // will be inserted here
+cronConnector.on({ expression: "31 * * * *" }, async (event, app) => {
+ const { data } = await githubConnector.sdk().pulls.list({
+   owner: 'lcildir',
+   repo: 'example',
+   state: "open",
+ });
+ data.forEach(async ({ html_url, requested_reviewers: reviewers }) => {
+   //await messageHelper(reviewers, slackUsers, html_url, true);
+   console.log(html_url);
+ });
+});
 
 app.start();
