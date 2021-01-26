@@ -1,0 +1,8 @@
+{"level":"info","message":"Reshuffle Initializing","timestamp":"2021-01-26T03:51:08.485Z"}
+{"level":"info","message":"Reshuffle Registering event CRON/Rt2CdbbFGnEfzSM7LZF7M/Rshakx4T_q1AosE5EW45o","timestamp":"2021-01-26T03:51:08.498Z"}
+{"level":"info","message":"Slack Connector - Slack app running on port 3000","timestamp":"2021-01-26T03:51:08.526Z"}
+{"level":"info","message":"Reshuffle Initializing","timestamp":"2021-01-26T03:51:32.765Z"}
+{"level":"info","message":"Reshuffle Registering event CRON/zsBIb1_2ulzOzHGdBtvyI/irEe4B0yolPWSj-zAuinw","timestamp":"2021-01-26T03:51:32.778Z"}
+{"level":"info","message":"Slack Connector - Slack app running on port 3000","timestamp":"2021-01-26T03:51:32.803Z"}
+{"handlerId":"8_GA2r0aXQ2u6y9f-KwqU","level":"error","message":"HttpError: Bad credentials\n    at C:\\Users\\lutfi\\deneme\\example\\node_modules\\@octokit\\request\\dist-node\\index.js:66:23\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async Object.handle (C:\\Users\\lutfi\\deneme\\example\\gitBot.js:19:19)","timestamp":"2021-01-26T03:52:00.226Z"}
+{"handlerId":"8_GA2r0aXQ2u6y9f-KwqU","level":"error","message":"HttpError: Bad credentials\n    at C:\\Users\\lutfi\\deneme\\example\\node_modules\\@octokit\\request\\dist-node\\index.js:66:23\n    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n    at async Object.handle (C:\\Users\\lutfi\\deneme\\example\\gitBot.js:19:19)","timestamp":"2021-01-26T04:52:00.228Z"}
